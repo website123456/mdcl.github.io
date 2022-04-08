@@ -149,6 +149,11 @@ p.large {
 .centered {
 	text-align: center;
 }
+
+.contact{
+	margin-top: 50px;
+}
+
 strong {
 	font-weight: 700;
 }
