@@ -227,7 +227,7 @@ a:before, a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header_bg.jpg) no-repeat center top;
+	background: url(../img/header_bg2.jpg) no-repeat center top;
 	padding-top: 200px;
 	text-align: center;
 	background-attachment: relative;
@@ -284,100 +284,253 @@ a:before, a:after {
 #about img {
 	margin-top: 0;
 }
-#services {
-	background: url(../img/bg.jpg) no-repeat center center fixed;
-	padding: 60px 0;
-	text-align: center;
-	background-size: cover;
+.home_title h2{
+	color: #005c9e !important;
+	color: #2881c1 !important;
 }
-#services .fa {
-	color: #c0ed5d;
+
+.home_title i{
+	color: #005c9e !important;
+	color: #2881c1 !important;
 }
-#services hr {
-	display: block;
-	height: 3px;
-	border: 0;
-	margin: 3em 0;
-	padding: 0;
-	background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #71c9d6, rgba(255, 255, 255, 0));
-	background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), #71c9d6, rgba(255, 255, 255, 0));
-	background-image: -ms-linear-gradient(left, rgba(255, 255, 255, 0), #71c9d6, rgba(255, 255, 255, 0));
-	background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0), #71c9d6, rgba(255, 255, 255, 0));
-	width: 50%;
-	left: 25%;
-	position: relative;
-	border: none;
+
+/***************************products*************/
+.white-bg {
+  background: #ffffff;
 }
-#services p {
-	text-align: center;
-	color: #fff;
+
+.depertment_area {
+  background-image: url(../img/products/products_body_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
-#services H2 {
-	color: #fff;
+
+@media (max-width: 767px) {
+  .depertment_area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
 }
-#services H3 {
-	color: #fff;
+
+.depertment_area .row.custom_align {
+  margin-bottom: 60px;
 }
-#team {
-	background: url(../img/bg.jpg) no-repeat center center fixed;
-	padding: 60px 0;
-	text-align: center;
-	background-size: cover;
+
+@media (max-width: 767px) {
+  .depertment_area .learn_more_btn {
+    text-align: left !important;
+    margin-top: 30px;
+  }
 }
-#team hr {
-	display: block;
-	height: 3px;
-	border: 0;
-	margin: 3em 0;
-	padding: 0;
-	background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #71c9d6, rgba(255, 255, 255, 0));
-	background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), #71c9d6, rgba(255, 255, 255, 0));
-	background-image: -ms-linear-gradient(left, rgba(255, 255, 255, 0), #71c9d6, rgba(255, 255, 255, 0));
-	background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0), #71c9d6, rgba(255, 255, 255, 0));
-	width: 50%;
-	left: 25%;
-	position: relative;
-	border: none;
+
+.depertment_area .dept_main_info .dept_thumb img {
+  width: 100%;
 }
-#team H2 {
-	color: #fff;
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .depertment_area .dept_main_info .dept_thumb img {
+    max-width: 100%;
+  }
 }
-#team p {
-	color: #fff;
+
+.depertment_area .dept_main_info .dept_info {
+  padding-left: 68px;
+  padding-right: 75px;
 }
-#team H4 {
-	padding-top: 10px;
-	color: #fff;
-	font-weight:bold;
+
+@media (max-width: 767px) { 
+  .depertment_area .dept_main_info .dept_info {
+    padding: 30px;
+  }
 }
-#team p.large {
-	margin-top: 60px;
-	margin-bottom: 30px;
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .depertment_area .dept_main_info .dept_info {
+    padding: 40px;
+  }
 }
-#team .fa {
-	width: 30px;
-	height: 30px;
-	margin: 0 3px;
-	border-radius: 100%;
-	font-size: 15px;
-	line-height: 30px;
-	outline: 0;
-	color: #fff;
-	background-color: #67c5d3;
-	-webkit-transition: all .3s;
-	-moz-transition: all .3s;
-	transition: all .3s;
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .depertment_area .dept_main_info .dept_info {
+    padding: 40px;
+  }
 }
-#team .fa:hover {
-	background-color: #2ea0b1;
+
+.depertment_area .dept_main_info .dept_info h3 {
+  font-size: 25px;
+  line-height: 35px;
+  color: #242424;
+  font-weight: 500;
+  font-family: "Work Sans", sans-serif;
 }
-#portfolio {
-	background-color: #fff;
-	padding: 60px 0;
+
+@media (max-width: 767px) {
+  .depertment_area .dept_main_info .dept_info h3 {
+    font-size: 20px;
+  }
 }
-#portfolio .btn-default {
-	border: 0;
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .depertment_area .dept_main_info .dept_info h3 br {
+    display: none;
+  }
 }
+
+.depertment_area .dept_main_info .dept_info p {
+  margin-bottom: 52px;
+  margin-top: 20px;
+  color: #5c5c5c;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .depertment_area .dept_main_info .dept_info p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+}
+
+.depertment_area .depart_ment_tab .nav {
+  justify-content: space-between;
+}
+
+.depertment_area .depart_ment_tab .nav li {
+  -webkit-box-flex: 14.4%;
+  -ms-flex: 14.4% 0 0px;
+  flex: 14.4% 0 0;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .depertment_area .depart_ment_tab .nav li {
+    -webkit-box-flex: 100%;
+    -ms-flex: 100% 0 0px;
+    flex: 100% 0 0;
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .depertment_area .depart_ment_tab .nav li {
+    -webkit-box-flex: 30%;
+    -ms-flex: 30% 0 0px;
+    flex: 30% 0 0;
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .depertment_area .depart_ment_tab .nav li {
+    -webkit-box-flex: 15%;
+    -ms-flex: 15% 0 0px;
+    flex: 15% 0 0;
+    margin-bottom: 0 !important;
+  }
+}
+
+.depertment_area .depart_ment_tab .nav li a {
+  background: #fff;
+  margin-bottom: 30px;
+  border: 1px solid #cdf2ff;
+  padding: 0;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 30px 0;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media (max-width: 767px) {
+  .depertment_area .depart_ment_tab .nav li a {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 15px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+}
+
+.depertment_area .depart_ment_tab .nav li a i {
+  font-size: 50px;
+  color: #3eadf8;
+  line-height: 1;
+  margin-bottom: 13px;
+}
+
+@media (max-width: 767px) {
+  .depertment_area .depart_ment_tab .nav li a i {
+    font-size: 25px;
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+}
+
+.depertment_area .depart_ment_tab .nav li a h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #296ea4;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .depertment_area .depart_ment_tab .nav li a h4 {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .depertment_area .depart_ment_tab .nav li a h4 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .depertment_area .depart_ment_tab .nav li a h4 br {
+    display: none;
+  }
+}
+
+.depertment_area .depart_ment_tab .nav li a.active {
+  background-image: -moz-linear-gradient(0deg, #24c0f1 0%, #4c9afe 100%);
+  background-image: -webkit-linear-gradient(0deg, #24c0f1 0%, #4c9afe 100%);
+  background-image: -ms-linear-gradient(0deg, #24c0f1 0%, #4c9afe 100%);
+  color: #fff;
+}
+
+.depertment_area .depart_ment_tab .nav li a.active i {
+  color: #fff;
+}
+
+.depertment_area .depart_ment_tab .nav li a.active h4 {
+  color: #fff;
+}
+
+.depertment_area .depart_ment_tab .nav li:last-child {
+  margin-right: 0;
+}
+
+/****************************products end*************************/
+
 #contact {
 	background: #fff;
 	padding: 60px 0;
@@ -584,7 +737,6 @@ body .header {
 }
 }
 
-/*ipad portrait*/
 @media only screen and (min-device-width:768px) and (max-device-width : 1024px) and (orientation : portrait) {
 .header {
 	background-attachment: scroll;
