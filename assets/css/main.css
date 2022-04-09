@@ -274,6 +274,47 @@ a:before, a:after {
 	outline: 0px;
 	border: 1px solid #fff;
 }
+
+#services{
+	padding: 60px 0;
+}
+
+#services hr, #products hr, #contact hr {
+	display: block;
+	height: 3px;
+	border: 0;
+	margin: 3em 0;
+	padding: 0;
+	background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #109dd0, rgba(255, 255, 255, 0));
+	background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), #109dd0, rgba(255, 255, 255, 0));
+	background-image: -ms-linear-gradient(left, rgba(255, 255, 255, 0), #109dd0, rgba(255, 255, 255, 0));
+	background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0), #109dd0, rgba(255, 255, 255, 0));
+	width: 50%;
+	left: 25%;
+	position: relative;
+	border: none;
+}
+#services p {
+	text-align: center;
+	color: #5d808a;
+}
+#services H2 {
+	color: #109dd0;
+}
+#services H3 {
+	text-align: center;
+	color: #5d808a;
+}
+
+#services .fa{
+	color: #109dd0 !important;
+	text-align: center !important;
+	display: block;
+	font-size: 28px;
+}
+
+/*******************about**********************/
+
 #about {
 	background: #fff;
 	padding-top: 80px;
@@ -284,6 +325,7 @@ a:before, a:after {
 #about img {
 	margin-top: 0;
 }
+
 .home_title h2{
 	color: #005c9e !important;
 	color: #2881c1 !important;
@@ -594,20 +636,85 @@ a:before, a:after {
 	font-size: 18px;
 	margin-right: 4px;
 }
+
+/*********************footer*******************/
+footer{
+	color: #e3f2f7;
+	background-color: #033752;
+	background-color: #206BA5;
+	padding: 20px 0;
+}
+
+footer img{
+	width: 150px;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer u{
+	display: block;
+	text-align: left;
+	margin: 20px 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+footer hr{
+	width: 60px; 
+	background-color: #7c4dff; 
+	height: 2px;
+	position: static;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+footer p{
+	text-align: left;
+	color: #e3f2f7;
+}
+
+footer .footer_product a, footer .footer_links a{
+	color: #e3f2f7;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+footer .footer_product a:hover, footer .footer_links a:hover{
+	text-decoration: underline;
+	background: none;
+}
+
+footer h6{
+	color: #e3f2f7;
+	font-weight: bolder;
+	text-align: left;
+	font-size: 18px;
+}
+
+footer .footer_address i{
+	margin-right: 5px;
+}
+
 #footerwrap {
-	background: #2b2b2b;
+	background: url(../img/header_bg2.jpg) no-repeat center top;
 	padding: 25px 0 15px 0;
 	border-bottom: 1px solid #ddd;
 	text-align: center;
 }
 #footerwrap span.copyright {
 	line-height: 40px;
-	color: #888;
+	color: #e3f2f7;
 	font-weight: 400;
 }
 #footerwrap span.copyright a {
-	color: #888;
+	color: #e3f2f7;
 	border-bottom: 1px dotted;
+}
+#footerwrap span.copyright a, #footerwrap span.copyright b{
+	padding: 0 10px;
+	font-weight: bold;
+	text-decoration: none !important;
 }
 #footerwrap span.copyright a:hover {
 	color: #3ab7cb;
@@ -616,6 +723,7 @@ a:before, a:after {
 #footerwrap h4 {
 	color: white;
 }
+
 ul.social-buttons {
 	margin: 0;
 }
@@ -659,7 +767,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	left: 0;
 	padding: 20px;
 	color: #fff;
-	background-color: #34b1c4;
+	background-color: #206BA5;
 }
 .grid figcaption h5 {
 	margin: 0;
