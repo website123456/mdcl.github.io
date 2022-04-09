@@ -75,7 +75,7 @@ body {
 	margin-left: -15px;
 }
 .modal-header {
-	background: #34b1c4;
+	background: #206BA5;
 }
 .modal-header h4 {
 	color: white;
@@ -83,7 +83,25 @@ body {
 	letter-spacing: 1px;
 }
 .modal-footer {
-	background: #34b1c4;
+	background: #206BA5;
+}
+
+figcaption .btn:hover{
+	color: #206BA5;
+}
+
+.modal-footer .btn.btn-default{
+	background-color: #1ba8c4 !important;
+	color: #fff;
+	border-color: #1ba8c4 !important;
+}
+
+.modal-footer .btn.btn-default:hover{
+	color: #206BA5;
+}
+
+#products .modal-content{
+	border: none;
 }
 .navbar-default .navbar-nav > li > a {
   color: #555;
@@ -582,21 +600,26 @@ a:before, a:after {
 	padding: 30px 0;
 }
 #contact .fa {
-	color: #3ab7cb;
+	color: #109dd0;
 	margin-bottom: 10px;
 }
 #contact .btn {
 	font-weight: 500;
 	font-size: 18px;
 	margin-top: 50px;
-	background-color: #3ab7cb;
+	background-color: #109dd0;
 	color: #fff;
 	border: 0;
 }
 #contact .btn:hover, #contact .btn:focus {
-	background-color: #329cad;
+	background-color: #4487ba;
 	outline: 0px;
 }
+
+#contact h2{
+	color: #109dd0;
+}
+
 #greywrap {
 	background: #f5f5f5;
 	margin-top: 0px;
@@ -787,6 +810,14 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	background: #2f2f2f;
 	color: #fff;
 	font-size: 13px;
+}
+figcaption .btn{
+	background-color: #1ba8c4 !important;
+	color: #fff;
+	border-color: #1ba8c4 !important;
+}
+figcaption .btn:hover{
+	color: #206BA5;
 }
 /* Caption Style */
 .mask figure {
