@@ -12,6 +12,8 @@
 
 <!-- Custom CSS -->
 <link href="assets/css/main.css" rel="stylesheet">
+<link href="assets/css/about_styles.css" rel="stylesheet">
+<link href="assets/css/about_responsive.css" rel="stylesheet">
 <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 <link href="assets/css/animate-custom.css" rel="stylesheet">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -44,25 +46,44 @@
   </div>
 </div>
 
+<!-- Home -->
+
+	<div class="home">
+		<div class="home_background_container prlx_parent">
+			<div class="home_background prlx" style="background-image:url(assets/img/product_about_bg1.jpg)"></div>
+		</div>
+		
+		<div class="home_title">
+			<h2 data-aos="fade-up" data-aos-delay="100">Contuct us</h2>
+			<div class="next_section_scroll">
+				<div class="next_section nav_links" data-scroll-to=".icon_boxes">
+					<a href="#contact">
+						<i class="fa fa-chevron-down" data-aos="fade-up" data-aos-delay="200"></i>
+						<i class="fa fa-chevron-down" data-aos="fade-up" data-aos-delay="300"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
 <!-- ==== CONTACT ==== -->
 <div id="contact" name="contact" class="contact">
   <div class="container">
     <div class="row">
-      <h2 class="centered" data-aos="fade-up" data-aos-delay="100">Contact Us</h2>
       <hr data-aos="fade-up" data-aos-delay="200">
-	  <div class="col-md-4 centered" data-aos="fade-up" data-aos-delay="200"> <i class="fa fa-map-marker fa-2x"></i>
+	  <div class="col-md-4 centered block" data-aos="fade-up" data-aos-delay="200"> <i class="fa fa-map-marker fa-2x"></i>
         <p>Raffi Street 111,<br>
            Yerevan, Armenia</p>
       </div>
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300"> <i class="fa fa-envelope-o fa-2x"></i>
+      <div class="col-md-4 block" data-aos="fade-up" data-aos-delay="300"> <i class="fa fa-envelope-o fa-2x"></i>
         <p>info@mdcl.com</p>
       </div>
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="400"> <i class="fa fa-phone fa-2x"></i>
+      <div class="col-md-4 block" data-aos="fade-up" data-aos-delay="400"> <i class="fa fa-phone fa-2x"></i>
         <p> +1 800 123 1234</p>
       </div>
     </div>
 	<div class="row">
-	  <div class="col-sm-12 map" data-aos="fade-up" data-aos-delay="500">
+	  <div class="col-sm-12 map">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.5967637378562!2d44.42744671472737!3d40.173530878319625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abde2ede65513%3A0xb1b62923396f1bdb!2zMTExIFJhZmZpIFN0LCBZZXJldmFuIDAwNjQsINCQ0YDQvNC10L3QuNGP!5e0!3m2!1sru!2s!4v1649609993633!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 	</div>
@@ -179,7 +200,15 @@
 <script type="text/javascript" src="assets/js/jquery-func.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
-	AOS.init();
+AOS.init();
+$(document).ready(function(){
+    $('a[href^="#"]').on('click', function(event) {
+        event.preventDefault();
+        var sc = $(this).attr("href"),
+            dn = $(sc).offset().top;
+        $('html, body').animate({scrollTop: dn}, 1000);
+    });
+});
 </script>
 </body>
 </html>

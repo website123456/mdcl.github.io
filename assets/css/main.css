@@ -591,8 +591,9 @@ a:before, a:after {
 
 #contact {
 	background: #fff;
-	padding: 60px 0;
+	padding-bottom: 60px;
 	text-align: center;
+	margin-top: 0;
 }
 
 #contact  .map{
@@ -614,6 +615,10 @@ a:before, a:after {
 #contact p{
 	font-size: 17px;
 	font-weight: 500;
+}
+
+#contact .block{
+	padding-bottom: 0 !important;
 }
 
 #contact .fa {
